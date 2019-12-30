@@ -127,7 +127,7 @@
 	opacity: 1;
 }
 
-/** Type Info and icon next to the label in the focused completion item **/
+/** Type info and icon next to the label in completion item **/
 
 .monaco-editor .suggest-widget .monaco-list .monaco-list-row > .contents > .main > .type-label {
 	margin-left: 0.8em;
@@ -137,23 +137,6 @@
 	text-overflow: ellipsis;
 	opacity: 0.7;
 	white-space: nowrap;
-}
-
-.monaco-editor .suggest-widget .monaco-list .monaco-list-row > .contents > .main > .type-label > .monaco-tokenized-source {
-	display: inline;
-}
-
-.monaco-editor .suggest-widget .monaco-list .monaco-list-row > .contents > .main > .readMore,
-.monaco-editor .suggest-widget .monaco-list .monaco-list-row > .contents > .main > .type-label,
-.monaco-editor .suggest-widget.docs-side .monaco-list .monaco-list-row.focused > .contents > .main > .readMore,
-.monaco-editor .suggest-widget.docs-side .monaco-list .monaco-list-row.focused > .contents > .main > .type-label,
-.monaco-editor .suggest-widget.docs-below .monaco-list .monaco-list-row.focused > .contents > .main > .readMore {
-	display: none;
-}
-
-.monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused > .contents > .main > .readMore,
-.monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused > .contents > .main > .type-label {
-	display: inline;
 }
 
 /** Styles for each row in the list **/
